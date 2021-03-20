@@ -10,8 +10,8 @@ int Stopover::getTime() {
 }
 
 double Stopover::getPrice(double discount) {
-  double floatPrice = (double) price;
-  double priceWithDiscount = floatPrice - (floatPrice * discount);
+  double doublePrice = (double) price;
+  double priceWithDiscount = doublePrice - (doublePrice * discount);
 
   return priceWithDiscount;
 }

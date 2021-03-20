@@ -85,15 +85,6 @@ int main() {
     buildCostsRow(stopoversCount, maxStopovers, discountTime, stopovers, discounts, i, stopoversCount, costs);
   }
 
-  cout << endl;
-  for (int i = 0; i < stopoversCount; i++) {
-    for (int j = 0; j < stopoversCount; j++) {
-      cout << setw(8) << setfill(' ') << costs[i][j] << "   ";
-    }
-
-    cout << endl;
-  }
-
   double minCost = getMinFromCol(costs, stopoversCount - 1, stopoversCount);
   cout << fixed << setprecision(2) << minCost << endl;
 
