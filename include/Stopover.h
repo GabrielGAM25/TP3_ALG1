@@ -10,7 +10,7 @@ public:
   Stopover() {};
   Stopover(int time, int price);
   int getTime();
-  float getPrice(float discount);
+  double getPrice(double discount);
 };
 
 #endif
