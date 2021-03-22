@@ -34,7 +34,7 @@
           "request": "launch",
           "args": [
               "<",
-              "${workspaceFolder}/tests/3.in"
+              "${workspaceFolder}/tests/1.in"
           ],
           "stopAtEntry": false,
           "cwd": "${workspaceFolder}",
@@ -53,6 +53,7 @@
           "sourceFileMap": {
               "/build/glibc-eX1tMB": "/usr/src/glibc"
           },
+          "preLaunchTask": "g++ - compile file",
       }
   ]
 }

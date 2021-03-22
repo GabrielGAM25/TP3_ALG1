@@ -1,5 +1,5 @@
-#ifndef Point_H
-#define Point_H
+#ifndef Stopover_H
+#define Stopover_H
 
 class Stopover {
 private:
